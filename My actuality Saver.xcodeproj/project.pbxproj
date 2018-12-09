@@ -13,6 +13,10 @@
 		B6DC6CD821B73A750004105E /* My_actuality_Saver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6DC6CD621B73A750004105E /* My_actuality_Saver.xcdatamodeld */; };
 		B6DC6CDA21B73A780004105E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DC6CD921B73A780004105E /* Assets.xcassets */; };
 		B6DC6CDD21B73A780004105E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DC6CDB21B73A780004105E /* LaunchScreen.storyboard */; };
+		B6DC6CE521B73B6A0004105E /* AddActualityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC6CE421B73B6A0004105E /* AddActualityController.swift */; };
+		B6DC6CE721B740AE0004105E /* DataCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC6CE621B740AE0004105E /* DataCore.swift */; };
+		B6DC6CEA21B742490004105E /* Actuality+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC6CE821B742490004105E /* Actuality+CoreDataClass.swift */; };
+		B6DC6CEB21B742490004105E /* Actuality+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC6CE921B742490004105E /* Actuality+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B6DC6CD921B73A780004105E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DC6CDC21B73A780004105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6DC6CDE21B73A780004105E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DC6CE421B73B6A0004105E /* AddActualityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActualityController.swift; sourceTree = "<group>"; };
+		B6DC6CE621B740AE0004105E /* DataCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCore.swift; sourceTree = "<group>"; };
+		B6DC6CE821B742490004105E /* Actuality+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actuality+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B6DC6CE921B742490004105E /* Actuality+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actuality+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 		B6DC6CCE21B73A750004105E /* My actuality Saver */ = {
 			isa = PBXGroup;
 			children = (
+				B6DC6CE821B742490004105E /* Actuality+CoreDataClass.swift */,
+				B6DC6CE921B742490004105E /* Actuality+CoreDataProperties.swift */,
 				B6DC6CCF21B73A750004105E /* AppDelegate.swift */,
+				B6DC6CE421B73B6A0004105E /* AddActualityController.swift */,
+				B6DC6CE621B740AE0004105E /* DataCore.swift */,
 				B6DC6CD121B73A750004105E /* ViewController.swift */,
 				B6DC6CD321B73A750004105E /* Main.storyboard */,
 				B6DC6CD921B73A780004105E /* Assets.xcassets */,
@@ -138,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DC6CEA21B742490004105E /* Actuality+CoreDataClass.swift in Sources */,
+				B6DC6CEB21B742490004105E /* Actuality+CoreDataProperties.swift in Sources */,
+				B6DC6CE521B73B6A0004105E /* AddActualityController.swift in Sources */,
+				B6DC6CE721B740AE0004105E /* DataCore.swift in Sources */,
 				B6DC6CD821B73A750004105E /* My_actuality_Saver.xcdatamodeld in Sources */,
 				B6DC6CD221B73A750004105E /* ViewController.swift in Sources */,
 				B6DC6CD021B73A750004105E /* AppDelegate.swift in Sources */,
